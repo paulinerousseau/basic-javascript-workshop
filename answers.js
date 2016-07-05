@@ -49,7 +49,7 @@ function multiply (a,b){
 };
 multiply(2,3);
 multiply(3,5);
-//multiply(cupboard,kitchen);
+multiply("cupboard","kitchen");
 // if not a number it will give an 
 //undefined error message 
 
@@ -79,3 +79,10 @@ var repetition = function (string, number){
 };
 repetition("wild", 4);
 
+//reverse
+var reverse = function(string){
+    return string.split('').reverse().join('');
+};
+reverse("hello");
+reverse("pauline");
+reverse(" ");
