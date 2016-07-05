@@ -23,6 +23,53 @@ function lastLetter(string){
                  
 lastLetter("cupboard");
 lastLetter(" ");
+
+//string number, returns position represented
+//by number
+var position = function(string,num){
+    return string .charAt(num);
+};
+position("cupboard",4);
+position("kitchen",3);
+position("");
+//add function
+function add (a, b){
+    return a+b   
+};
+add (1,2);
+add (2,3);
+add ("cupboard", "kitchen");
+//if anything else than a number it will 
+//put them next to each other, 
+//like "adding" them into //another result. 
+
+//multiply function
+function multiply (a,b){
+    return a*b
+};
+multiply(2,3);
+multiply(3,5);
+multiply(cupboard,kitchen);
+// if not a number it will give an 
+//undefined error message 
+
+//two numbers one string
+function caculate(a,b,str){
+    if (str==="add"){
+        return a+b;
+    }else if (str==="substract"){
+        return a-b;
+    }
+    else if(str==="multiply"){
+        return a*b;
+    }
+    else if(str==="div"){
+        return a/b;
+    }else{
+        return 0;  
+}
+};
+
     
 
 
