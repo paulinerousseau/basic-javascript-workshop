@@ -93,7 +93,7 @@ function factorial(n) {
     return 1;
   }
   return n * factorial(n - 1);
-}
+};
 
 factorial(4);
 factorial(-2);
