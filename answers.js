@@ -124,3 +124,11 @@ function capitalize(str) {
 }
 
 capitalize(capitalize("urban behaviour"));
+
+//largest number
+var array = [17, 03, 78];
+var largest = Math.max.apply(Math, array);
+
+
+
+
