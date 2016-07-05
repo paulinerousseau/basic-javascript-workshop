@@ -97,3 +97,20 @@ function factorial(n) {
 
 factorial(4);
 factorial(-2);
+
+//longest word in the phrase
+function LongestWord(str) {
+   var words = str.split(' ');
+   var longest = ' ';
+
+   for (var i=0;i<words.length;i++) {
+        if (words[i].length > longest.length) {
+             longest = words[i];
+        }  
+   }
+
+   return longest;
+}
+
+LongestWord("i am struggling but will keep going");
+
