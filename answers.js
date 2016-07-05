@@ -86,3 +86,14 @@ var reverse = function(string){
 reverse("hello");
 reverse("pauline");
 reverse(" ");
+
+//factorial
+function factorial(n) {
+  if (n === 0) {
+    return 1;
+  }
+  return n * factorial(n - 1);
+}
+
+factorial(4);
+factorial(-2);
