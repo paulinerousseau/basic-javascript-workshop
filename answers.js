@@ -114,3 +114,13 @@ function LongestWord(str) {
 
 LongestWord("i am struggling but will keep going");
 
+// capitalized 
+function capitalize(str) {
+   var splitStr = str.toLowerCase().split(' ');
+   for (var i = 0; i < splitStr.length; i++) {
+       splitStr[i] = splitStr[i].charAt(0).toUpperCase() + splitStr[i].substring(1);     
+   }
+   return splitStr.join(' '); 
+}
+
+capitalize(capitalize("urban behaviour"));
