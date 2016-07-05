@@ -136,6 +136,13 @@ function M(arr) {
 }
 M([null,undefined, "0", "false"]);
 
-
-
+//sum of array
+var sumOfArray = function(array){
+var count = 0;
+for(var i = 0; i < array.length; i++){
+count = count + array[i];
+}
+return count;
+};
+console.log(sumOfArray([1,9,7,8]));
 
