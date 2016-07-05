@@ -129,6 +129,13 @@ capitalize(capitalize("urban behaviour"));
 var array = [17, 03, 78];
 var largest = Math.max.apply(Math, array);
 
+//truthy
+function M(arr) {
+  var filteredArray = arr.filter(Boolean);
+  return filteredArray;
+}
+M([null,undefined, "0", "false"]);
+
 
 
 
