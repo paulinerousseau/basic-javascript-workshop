@@ -49,7 +49,7 @@ function multiply (a,b){
 };
 multiply(2,3);
 multiply(3,5);
-multiply(cupboard,kitchen);
+//multiply(cupboard,kitchen);
 // if not a number it will give an 
 //undefined error message 
 
@@ -70,10 +70,12 @@ function caculate(a,b,str){
 }
 };
 
-    
+//string number repeated
 
-
-
-
-function 
+var repetition = function (string, number){
+    for(var i = 0; i <= number; i++){
+        console.log(string);
+    }
+};
+repetition("wild", 4);
 
