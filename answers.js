@@ -146,3 +146,33 @@ return count;
 };
 console.log(sumOfArray([1,9,7,8]));
 
+//two arrays 
+//tried my best but could only isolate 
+//elements that were equals in the two arrays
+
+var arr1 = [1, 2, 3];
+var arr2 = [1, 2, 4, 5];
+var resultArr = [];
+
+var myLoop = function(arr1, arr2) {
+
+  // First loop
+  for (var i = 0; i < arr1.length; i++) {
+   // alert("1rst Loop = " + arr1[i]);
+
+    // Second loop
+    for (var j = 0; j < arr2.length; j++) {
+     // alert("2nd loop = " + arr2[j]);
+
+      // Doing the comparaison
+      if (arr1[i] === arr2[j]) {
+        resultArr.push(arr1[i]);
+     //   alert("My result = " + resultArr);
+      }
+    }
+  }
+  alert("My result = " + resultArr);
+};
+
+myLoop(arr1, arr2);
+
